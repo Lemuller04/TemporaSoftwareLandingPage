@@ -1422,6 +1422,10 @@ textarea:focus {
         height: auto;
         margin-right: .3em;
     }
+
+    & h4 {
+        font-family: "Encode Sans Condensed";
+    }
 }
 
 .contacts-link:hover {
