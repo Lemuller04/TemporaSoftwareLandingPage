@@ -1,0 +1,335 @@
+﻿/*
+-------------------------------------------------------------------------
+* Template Name    : Ctotek - Onepage Multi-Purpose HTML5 Template      *
+* Author           : ParExcellence                                      *
+* Version          : 1.0.0                                              *
+* File Description : Responsive Css file of the template                *
+*------------------------------------------------------------------------
+*/
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .slider .parallax-slider .swiper-slide .bg-img {
+        background-position: center center;
+    }
+
+    .container, .container-sm {
+        max-width: 98%;
+    }
+
+    .slider .parallax-slider .caption {
+        text-align: center;
+    }
+
+        .slider .parallax-slider .caption h2 {
+            font-size: 50px;
+        }
+
+    .slide-controls .swiper-button-next,
+    .slide-controls .swiper-pagination-fraction {
+        right: 25px;
+    }
+
+        .slide-controls.swiper-button-next:hover {
+            right: 15px;
+        }
+
+    .slide-controls .swiper-button-prev:hover {
+        left: 15px;
+    }
+
+    .company .content h4 br {
+        display: none;
+    }
+
+    .company .img {
+        margin-top: 10px;
+    }
+
+    .js-zoom-gallery {
+        bottom: auto;
+        top: 10px;
+        right: 10px;
+    }
+
+    .work-slider .content .img-content {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .top-navbar {
+        padding: 10px 0;
+    }
+
+    .section-head h3 {
+        font-size: 24px;
+    }
+
+    .work-slider .swiper-slide {
+        padding: 0px 10px 30px;
+    }
+
+    .menu-wrapper .menu-links .main-menu > li {
+        font-size: 24px;
+    }
+
+    .top-navbar .container-fluid {
+        padding: 0 30px;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-head h6 {
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .top-navbar .logo {
+        width: 80px;
+    }
+
+    .slider .parallax-slider .caption h2 {
+        font-size: 40px;
+    }
+
+    .slider .parallax-slider .caption p {
+        padding: 0 30px;
+    }
+
+    .extra-title, .company .content h4 {
+        font-size: 30px;
+    }
+
+    .company .imgsec .imgtwo {
+        display: none;
+    }
+
+    .company .imgsec .imgone:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .company .imgsec .exp {
+        right: 30px;
+        position: absolute;
+        bottom: 30px;
+        color: #fff;
+        padding: 0;
+        z-index: 2;
+    }
+
+        .company .imgsec .exp h6 {
+            color: #eee;
+        }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+        .progress-wrap::after {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+    .contact-block .content h2 {
+        font-size: 28px;
+    }
+
+    .progress-wrap {
+        line-height: 30px;
+    }
+
+    .footer .footer_menu_list {
+        display: block !important;
+    }
+
+        .footer .footer_menu_list li {
+            width: 33.333%;
+            float: left;
+            text-align: center;
+        }
+
+            .footer .footer_menu_list li a {
+                padding: 0;
+            }
+
+    .testimonials .swiper-container .swiper-slide {
+        padding: 20px !important;
+    }
+
+        .testimonials .swiper-container .swiper-slide::after {
+            display: none;
+        }
+
+    .author-info {
+        text-align: left !important;
+    }
+    .circle-follow,.circle{
+        display:none;
+    }
+}
+
+@media(max-width:640px) {
+    .quote-block .content h2 {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+
+    .section-head h3, .services-section .items h5 {
+        font-size: 20px;
+    }
+
+    .contact-details h6 {
+        font-size: 16px;
+    }
+
+    .contact-details > i {
+        font-size: 20px;
+        width: 46px;
+        height: 46px;
+        line-height: 47px;
+    }
+
+    .contact-details {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu-wrapper .menu-links .main-menu > li {
+        font-size: 20px;
+        padding: 7px;
+    }
+
+    .top-navbar .container-fluid {
+        padding: 0 15px;
+    }
+
+    .slider .parallax-slider .caption .dis {
+        padding-left: 0;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+
+        .slider .parallax-slider .caption .dis:after {
+            display: none;
+        }
+
+    .slide-controls .swiper-button-next {
+        right: 5px;
+    }
+
+        .slide-controls .swiper-button-next i:after {
+            width: 20px;
+        }
+
+    .slide-controls .swiper-button-prev {
+        left: 5px;
+    }
+
+        .slide-controls .swiper-button-prev i:after {
+            width: 20px;
+        }
+
+    .slide-controls .swiper-button-next,
+    .slide-controls .swiper-button-prev {
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+        .slide-controls .swiper-button-next:hover {
+            right: 0 !important;
+        }
+
+        .slide-controls .swiper-button-prev:hover {
+            left: 0 !important;
+        }
+
+    .slider .parallax-slider .caption h2 {
+        font-size: 28px;
+    }
+
+    .slider .parallax-slider .caption p {
+        display: none;
+    }
+
+    .work-slider .swiper-button-next,
+    .work-slider .swiper-button-prev {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    .work-slider .swiper-button-next {
+        right: 15px;
+    }
+
+    .work-slider .swiper-button-prev {
+        left: 15px;
+    }
+
+    .work-slider .content .cont h6 {
+        letter-spacing: 2px;
+    }
+
+    .work-slider .content .cont h4 {
+        font-size: 20px;
+    }
+
+    .work-slider .content .cont {
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 20px;
+    }
+
+    .company .img .icon {
+        width: 70px;
+        height: 70px;
+        line-height: 90px;
+    }
+
+        .company .img .icon svg {
+            width: 60px;
+        }
+
+    .company .img .exp h2 {
+        font-size: 55px;
+    }
+
+    .extra-title, .company .content h4 {
+        font-size: 22px;
+    }
+
+    .contact-block .content h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
