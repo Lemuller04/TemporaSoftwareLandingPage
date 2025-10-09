@@ -1,4 +1,2 @@
-*.zip
-*template/
 .env
 node_modules/
